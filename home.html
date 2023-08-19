@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSH_best_smartwatch.com</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/homepage/logobsh.png" alt="">
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-bars" id="menu" onclick="menu()"></i>
+        </nav>
+    </div>
+    <div class="row">
+    <div class="home">
+        <div class="homeslide">
+        <img src="" alt="" class="image" style="display: none;">
+        <img src="img/homepage/1.png" alt=""  class="image" >
+        <img src="img/homepage/2.png" alt="" class="image">
+        <img src="img/homepage/3.png" alt=""  class="image" >
+        <img src="img/homepage/3.png"" alt=""  class="image">
+        </div>
+        <div class="button">
+           <button onclick="clicked(1)" class="buttons"></button>
+           <button onclick="clicked(2)" class="buttons"></button>
+           <button onclick="clicked(3)" class="buttons"></button>
+           <button onclick="clicked(4)" class="buttons"></button>
+        </div>
+    </div>
+    </div>
+
+<!--feautured catlog-->
+    <div class="catlog">
+        <div class="small">
+        <div class="row">
+                <div class="col-3">
+                    <img src="img/1st.png" alt=""></div>
+                    <div class="col-3">
+                        <img src="img/2nd.png" alt="">
+                    </div>
+                    <div class="col-3"><img src="img/3rd.jpg" alt="">
+                    </div>
+        </div>
+        </div> 
+    </div>
+
+<!-- feautured products-->
+    <div class="small">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="img/f1.jpeg" alt="">
+                <h4>AS-51 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$49.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/f2.jpg" alt="">
+                <h4>AS-52 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$59.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/f3.gif" alt="">
+                <h4>AS-53 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$38.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/f4.jpeg" alt="">
+                <h4>AS-54 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$29.00</p>
+            </div>
+        </div>
+
+    <!-- latest products -->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="img/L1.jpg" alt="">
+                <h4>S11-68 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$69.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/L2.jpg" alt="">
+                <h4>S89-62 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$109.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/L3.jpg" alt="">
+                <h4>AS-92 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/L4.jpg" alt="">
+                <h4>BS-14 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$89.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col4">
+                <img src="img/L5.jpg" alt="">
+                <h4>S12-689 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$32.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/L6.jpg" alt="">
+                <h4>S39-114 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$23.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/L7.jpg" alt="">
+                <h4>Bs-923 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$56.00</p>
+            </div>
+            <div class="col4">
+                <img src="img/L8.jpg" alt="">
+                <h4>A53-653 BSH Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$189.00</p>
+            </div>
+        </div>
+    </div>
+
+<!-- offer -->
+
+    <div class="offer">
+        <div class="small">
+            <div class="row">
+                <div class="col-2">
+                    <video autoplay=""  controls="" loop="" width="50%">
+                        <source src="img/homepage/offer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on BSH-Store</p>
+                    <h1>Smart Brand 4</h1>
+                    <small>The BSH Smart Brand-4 feautures a 39.9% larger
+                        (than BHS Brand-3) Black color full touch display 
+                        with adjustable brightness,so everything is clear 
+                        as can be..
+                    </small>
+                    <br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- ratings -->
+    <div class="ratings">
+        <div class="small">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                        BSH is simply Smart Watch Selling
+                        and home delivery industry.
+                        BSH is transform 100% Best quality
+                        Smart watch.
+                        Cash On delivery is also Available
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="img/somu.jpg" alt="">
+                    <h3>Somu Mane</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                        BSH is simply Smart Watch Selling
+                        and home delivery industry.
+                        BSH is transform 100% Best quality
+                        Smart watch.
+                        Cash On delivery is also Available
+                    </p>
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                   <a href="https://www.instagram.com/mr__basu__22_9/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="img/basu.jpg" alt=""></a> 
+                    <h3>Basu</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                        BSH is simply Smart Watch Selling
+                        and home delivery industry.
+                        BSH is transform 100% Best quality
+                        Smart watch.
+                        Cash On delivery is also Available
+                    </p>
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="img/hari.jpg" alt="">
+                    <h3>Harishkumar Mane</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer said-->
+    <div class="fotter">
+    <div class="footer1">
+        <div class="3in-one"></div>
+         <div class="store">
+            <h1>Shop Non-Stop on BSH-Store</h1>
+            <p>Trusted by more than 1 Crore Indians
+                Cash on Delivery | Free Delivery</p>
+                <img src="img/playstore.jpg" alt="">
+                <img src="img/appstore.jpg" alt="">
+         </div>
+         <div class="carerinfo">
+            <p>Careers</p>
+            <p >Become a supplier</p>
+            <p >Hall of Fame</p>
+            <p >Sitemap</p>
+
+         </div>
+        <div class="policies">
+        <p >Legal and Policies</p>
+        <p >BSH Tech Blog</p>
+        <p >Notices and Returns</p>
+        </div>
+        <div class="Contact">
+            <div class="links">
+            <h3>Reach out to us</h3>
+           <a href="https://www.facebook.com/"><img src="img/f-icon.png" alt="" ></a>
+            <a href="https://instagram.com/it_interview_prep?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="img/insta-icon.png" alt=""></a>
+            <a href="https://youtu.be/jDLHZtLpLsg"><img src="img/youtube.jpg" alt=""></a>
+            <a href="https://www.linkedin.com/in/somu-mane-9521ba1b9"><img src="img/linkdin.jpg" alt=""></a>
+           <a href="https://twitter.com/mane_somu95108"><img src="img/twit.jpg" alt=""></a>
+            </div>
+            <div class="about">
+                <h3>Contact</h3>
+                <p style="line-height: 20px; font-size: 14px;">
+                    Fashnear Technologies Private 
+                    Limited, CIN: U9840BSHKABANGALORE
+                    Bengaluru-560103,Karnataka, India
+                    E-mail address:somum794@gmail.com
+                    Contact:+91-6362562787
+                    © 2023- BSH.com
+                </p>
+            </div>   
+        </div>
+    </div>
+    <hr>
+    <p style="color:black;">@BSH-SmartWatch-Store</p>
+</div>
+<script src="app.js"></script>
+
+
+</body>
+</html>
